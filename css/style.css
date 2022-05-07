@@ -1,3 +1,14 @@
-body{
-    background-color: aqua;
+.header{
+    background-color:darkorchid;
+    opacity: 75%;
+    border: 30px whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0px;
+}
+body {
+    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2F5z4atkbst1x21.jpg&f=1&nofb=1');
+    background-size: contain;
+    margin: auto 0;
 }
