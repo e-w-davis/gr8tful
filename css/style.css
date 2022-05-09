@@ -1,25 +1,38 @@
+body {
+    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2F5z4atkbst1x21.jpg&f=1&nofb=1') no-repeat center center fixed;
+    background-size: cover;
+    align-content: space-between;
+}
+
 .header {
     background-color:steelblue;
     /* border: 30px whitesmoke; */
     font-family:Georgia, 'Times New Roman', Times, serif; 
     color: whitesmoke;
     text-align: center;
-    padding: 10px 0px;
-}
-body {
-    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2F5z4atkbst1x21.jpg&f=1&nofb=1') no-repeat center center fixed;
-    background-size: cover;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
 }
 
+
 .QuoteBackdrop {
+    display: flex;
     justify-content: center;
     text-align: center;
     box-sizing: border-box;
     font-size: 1.2rem;
+    align-items: center;
     background-color: #fff;
     opacity: 75%;
     overflow-wrap: break-word;
-    border-radius: 8px;
+    border-radius: 30px;
     padding: 4rem;
     position:relative;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    align-items: center;
 }
