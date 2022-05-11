@@ -7,7 +7,8 @@ body {
 .header {
     background-color:steelblue;
     /* border: 30px whitesmoke; */
-    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size:x-large;
     color: whitesmoke;
     text-align: center;
     text-shadow: 2px 2px #383b6b;
@@ -42,10 +43,12 @@ body {
 
 .quote {
     font-size:x-large;
+    font-family: 'PT Serif', serif;
     content: "\a";
 }
 .randomQuote {
     position: absolute;
+    font-family: 'Anton', sans-serif;
     font-size: larger;
     border-radius: 15px;
     margin-left: -50px;
