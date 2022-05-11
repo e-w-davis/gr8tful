@@ -13,8 +13,6 @@
 
 // const url = "https://api.quotable.io/random";
 
-// // Special thanks to Coding Artist's youtube channel for helping me to find an API and connect it to my log.
-// // Video can be found here (https://www.youtube.com/watch?v=bD8mmPxQ1F8&t=95s)
 // let author = document.getElementById("author");
 // let quote = document.getElementById("quote");
 
@@ -54,4 +52,4 @@ function getQuote(event) {
     console.log(error)
 })
 }
-// randomQuote();
+randomQuote();
