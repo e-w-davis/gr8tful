@@ -1,10 +1,38 @@
-# Gr8tfull
+### Gr8tfull
 ------------------------------------------------------------------------------
 A motivational quote generator utilizing the Quotable api.
+------------------------------------------------------------------------------
 
+## Technologies Used
+------------------------------------------------------------------------------
+<ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>jQuery</li>
+    <li>jQuery AJAX</li>
+    <li>Google Fonts</li>
+    <li>Quotable API</li>
+    </ul>
+------------------------------------------------------------------------------
 
-https://api.quotable.io/random
-
+## Screen Shot
+------------------------------------------------------------------------------
+Planned Wireframe-
 ![Screen Shot 2022-05-06 at 3 48 46 PM](https://user-images.githubusercontent.com/103696205/167208867-aea5bd32-7229-43e3-8b30-1348166bc495.png)
 
-Trello link - https://trello.com/b/AGZh4Vud/gratefulme
+Finished Product-
+<img src = url(https://i.imgur.com/5v4uweW.png)>
+------------------------------------------------------------------------------
+
+## Check It Out!
+------------------------------------------------------------------------------
+<a href = (www.google.com)>Click here</a> to see the working app!
+------------------------------------------------------------------------------
+
+## Future Enhancements
+------------------------------------------------------------------------------
+<ul>
+    <li>The ability to save quotes to localstorage.</li>
+    <li>A dropdown menu to access the saved quotes.</li>
+</ul>
