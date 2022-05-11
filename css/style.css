@@ -1,7 +1,7 @@
 body {
     background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2F5z4atkbst1x21.jpg&f=1&nofb=1') no-repeat center center fixed;
     background-size: cover;
-    align-content: space-between;
+    position: relative;
 }
 
 .header {
@@ -14,25 +14,38 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
+.main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 .QuoteBackdrop {
-    display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     box-sizing: border-box;
-    font-size: 1.2rem;
-    align-items: center;
+    font-size: 1.2rem; 
     background-color: #fff;
     opacity: 75%;
     overflow-wrap: break-word;
     border-radius: 30px;
-    padding: 4rem;
-    position:relative;
+    padding: 4rem; 
+    margin: auto 250;
+    float: center;
+    position: center;
 }
 
-.random {
-    display: flex;
+.quote {
+    font-size:x-large;
+    content: "\a";
+}
+.randomQuote {
+    display: grid;
+    margin: 0 auto;
     justify-content: center;
+    font-size: larger;
     border-radius: 30px;
     align-items: center;
 }

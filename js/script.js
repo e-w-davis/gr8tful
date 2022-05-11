@@ -47,8 +47,8 @@ function getQuote(event) {
         console.log("Quote data is ready")
         console.log(data)
 
-        $quote.text(data.content)
-        $author.text(data.author)
+        $quote.text('"' + data.content + '"')
+        $author.text('-' + data.author)
 }, function(error) {
     console.log('something is wrong')
     console.log(error)
