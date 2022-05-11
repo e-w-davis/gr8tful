@@ -1,5 +1,5 @@
 body {
-    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2F5z4atkbst1x21.jpg&f=1&nofb=1') no-repeat center center fixed;
+    background: url('https://i.imgur.com/BcMDVqK.jpeg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
 }
@@ -43,7 +43,7 @@ body {
 .quote {
     font-size:x-large;
     font-family: 'PT Serif', serif;
-    content: "\a";
+    content: "/a";
 }
 .randomQuote {
     position: absolute;
@@ -55,4 +55,25 @@ body {
     width: 100px;
     bottom: 0px;
     box-shadow:0px 5px 5px 0px;
+}
+
+@media (max-width: 500px) {
+    .header {
+        background-color:steelblue;
+        /* border: 30px whitesmoke; */
+        font-family: 'Oleo Script Swash Caps', cursive;
+        font-size: medium;
+        color: whitesmoke;
+        text-align: center;
+        text-shadow: 1px 1px #383b6b;
+        border-radius: 30px;
+        padding: 5px 5px 5px 5px;
+        box-shadow:0px 5px 5px 0px black;
+    }
+
+    .quote {
+        font-size:large;
+        font-family: 'PT Serif', serif;
+        content: "/a";
+    }
 }
