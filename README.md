@@ -26,7 +26,7 @@ Finished Product-
 
 ## Check It Out!
 ------------------------------------------------------------------------------
-<a href = (www.google.com)>Click here</a> to see the working app!
+<a href = "https://gr8fulme.netlify.app/">Click here</a> to see the working app!
 ------------------------------------------------------------------------------
 
 ## Future Enhancements
