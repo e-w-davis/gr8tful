@@ -14,14 +14,8 @@ function getQuote(event) {
     event.preventDefault()
 
     $.ajax(URL).then(function(data) {
-        console.log("Quote data is ready")
-        console.log(data)
-
         $quote.text('"' + data.content + '"')
         $author.text('-' + data.author)
-}, function(error) {
-    console.log('something is wrong')
-    console.log(error)
 })
 }
 
