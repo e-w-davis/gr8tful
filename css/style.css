@@ -6,7 +6,6 @@ body {
 
 .header {
     background-color:steelblue;
-    /* border: 30px whitesmoke; */
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size:x-large;
     color: whitesmoke;
@@ -60,7 +59,6 @@ body {
 @media (max-width: 500px) {
     .header {
         background-color:steelblue;
-        /* border: 30px whitesmoke; */
         font-family: 'Oleo Script Swash Caps', cursive;
         font-size: medium;
         color: whitesmoke;

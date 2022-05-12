@@ -1,33 +1,5 @@
 // Special thanks to Coding Artist's youtube channel for helping me to find an API and connect it to my log.
 // Video can be found here (https://www.youtube.com/watch?v=bD8mmPxQ1F8&t=95s)
-
-// window.onload = function() {
-//     if (window.jQuery) {  
-//         // jQuery is loaded  
-//         alert("Yeah!");
-//     } else {
-//         // jQuery is not loaded
-//         alert("Doesn't Work");
-//     }
-// }
-
-// const url = "https://api.quotable.io/random";
-
-// let author = document.getElementById("author");
-// let quote = document.getElementById("quote");
-
-
-
-// let randomQuote = () => {
-//     fetch(url)
-//         .then((data) => data.json())
-//         .then((item) => {
-//             console.log(item);
-
-//         $quote.text(data.quote)
-//         });
-//     };
-
     
 const URL = "https://api.quotable.io/random";
 
@@ -52,4 +24,5 @@ function getQuote(event) {
     console.log(error)
 })
 }
+
 randomQuote();
