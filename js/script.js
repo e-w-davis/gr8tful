@@ -4,7 +4,7 @@
 // identify API
 const URL = "https://api.quotable.io/random";
 
-// identifying variables
+// identifying elements
 const $quote = $('.quote');
 const $author = $('.author');
 const $randomQuote = $('.randomQuote');
